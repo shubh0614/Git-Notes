@@ -1,0 +1,66 @@
+Why Git?
+- Track code changes over time.
+- Collaborate with other developers easily.
+- Revert to older versions if something breaks.
+- Essential for software & DevOps engineers.
+
+Version Control System : Track History and Work together.
+Two Types -  Centralized and Distributed
+
+System - All users
+Global - All repository of current users
+Local The current repository
+
+
+GIT Commands:
+
+git --version -> Git version
+
+
+
+git config -> You can query/set/replace/unset options with this command.
+git config --global user.name "_Name_"      
+git config --global user.name _email_
+git config --global core.autocrlf true
+
+
+
+git init -> initializes empty git repository.
+
+
+
+mkdir -> creates directory.
+cd -> changes directory.
+ls -> list items present in directory.
+ls -a -> list hidden items aswell.
+rm -rf -> removes directory.
+mv file_name new_name -> rename or move file.
+echo hello > file1.txt -> used to write content in a file.
+echo hello >> file1.txt -> used to append content in a file.
+
+
+
+git status -> gives status of staging area of working directory.
+git status -s -> gives short description of current status.
+
+git add -> adds files to staging area.
+git add file1.txt
+git add file1.txt file2.txt
+git add *.txt
+git add . -> add all at once.
+
+
+git commit -> To commit file
+git commit -m "Message" -> Commit file and add small message.
+
+git commit -am "Fixed bug"  -> To skip staging area.
+
+git ls-files -> Lists files present in staging area.
+
+git rm file_name -> Removes files from staging are and working directory.
+git rm --chached -r file_name -> Only removes file from staging area.
+
+git mv file_name new_name -> Renames a file.
+
+.gitignore ->  We can list all files in this which we want to ignore.
+
