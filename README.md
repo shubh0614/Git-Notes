@@ -1,4 +1,4 @@
-#GIT Notes
+# GIT Notes
 Introduction to Git:
 
 Understanding version control
